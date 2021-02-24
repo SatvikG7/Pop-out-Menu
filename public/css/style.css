@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(20, 4, 77);
+}
+.container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.init-p {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.ele {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: rgb(199, 182, 34);
+  font-size: 45px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8a82fb),
+    to(#407ed7)
+  );
+  background: -o-linear-gradient(#8a82fb, #407ed7);
+  background: linear-gradient(#8a82fb, #407ed7);
+  transition: transform 1.5s;
+}
+#parent {
+  z-index: 6;
+}
+#google {
+  z-index: 5;
+}
+#facebook {
+  z-index: 4;
+}
+#instagram {
+  z-index: 3;
+}
+#twitter {
+  z-index: 2;
+}
+#whatsapp {
+  z-index: 1;
+}
+#telegram {
+  z-index: 0;
+}
+#youtube {
+  z-index: -1;
+}
+#linkedin {
+  z-index: -2;
+}
+.attr,.fa-github{
+    color: khaki;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .ele {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
