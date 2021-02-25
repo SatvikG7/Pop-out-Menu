@@ -88,4 +88,7 @@ body {
   #parent span{
     font-size: 10px;
   }
+  .attr{
+    user-select: auto;
+}
 }
