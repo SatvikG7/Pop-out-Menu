@@ -73,7 +73,6 @@ body {
   display: inline-block;
   color: khaki;
   font-size: 20px;
-  user-select: none;
 }
 @media screen and (max-width: 600px) {
   .ele {
@@ -88,7 +87,4 @@ body {
   #parent span{
     font-size: 10px;
   }
-  .attr{
-    user-select: auto;
-}
 }
