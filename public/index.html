@@ -1,56 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop-out Menu</title>
+    <!--! Links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts/script.js"></script>
+    <script src="scripts/fontawesome.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pop-out Menu</title>
-  <!--! Links -->
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="scripts/script.js"></script>
-  <script src="scripts/fontawesome.js"></script>
-</head>
-
-<body>
-  <div class="container">
-    <div class="clme">
-      <img width="150px" height="150px" src="assets/clickme.png" alt="click me" draggable="false">
-    </div>
-    <div id="parent" class="init-p ele" onclick="pop()" onmouseover="pop()">
-      <i class="fas fa-share-alt"></i>
-    </div>
-    <div class="items">
-      <div id="google" class="init-p ele">
-        <i class="fab fa-google"></i>
+  <body>
+    <div class="container">
+      <div id="parent" class="init-p ele" onclick="pop()" onmouseover="pop()">
+        <i class="fas fa-share-alt"></i
+        ><span style="font-size: 15px">ClickMe</span>
       </div>
-      <div id="facebook" class="init-p ele">
-        <i class="fab fa-facebook"></i>
-      </div>
-      <div id="instagram" class="init-p ele">
-        <i class="fab fa-instagram"></i>
-      </div>
-      <div id="twitter" class="init-p ele">
-        <i class="fab fa-twitter"></i>
-      </div>
-      <div id="whatsapp" class="init-p ele">
-        <i class="fab fa-whatsapp"></i>
-      </div>
-      <div id="telegram" class="init-p ele">
-        <i class="fab fa-telegram"></i>
-      </div>
-      <div id="youtube" class="init-p ele">
-        <i class="fab fa-youtube"></i>
-      </div>
-      <div id="linkedin" class="init-p ele">
-        <i class="fab fa-linkedin"></i>
+      <div class="items">
+        <div id="google" class="init-p ele">
+          <i class="fab fa-google"></i>
+        </div>
+        <div id="facebook" class="init-p ele">
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div id="instagram" class="init-p ele">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div id="twitter" class="init-p ele">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div id="whatsapp" class="init-p ele">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+        <div id="telegram" class="init-p ele">
+          <i class="fab fa-telegram"></i>
+        </div>
+        <div id="youtube" class="init-p ele">
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div id="linkedin" class="init-p ele">
+          <i class="fab fa-linkedin"></i>
+        </div>
       </div>
     </div>
     <div id="attrc" class="attr" onmouseover="setc()">
       <p>Made by Satvik Gaikwad</p>
-      <p>My Github Profile <a href="https://github.com/SatvikG7" target="github"><i class="fab fa-github"></i></a></p>
-      <p>Reference taken from <a href="https://www.youtube.com/watch?v=Q51PzAx3D3E&ab_channel=CodingArtist"
-          target="youtube" onmouseover="setRandomColor()">Here</a></p>
+      <p>
+        My Github Profile
+        <a href="https://github.com/SatvikG7" target="github"
+          ><i class="fab fa-github"></i
+        ></a>
+      </p>
+      <p>
+        Reference taken from
+        <a
+          href="https://www.youtube.com/watch?v=Q51PzAx3D3E&ab_channel=CodingArtist"
+          target="youtube"
+          onmouseover="setRandomColor()"
+          >Here</a
+        >
+      </p>
     </div>
-</body>
+  </body>
 </html>

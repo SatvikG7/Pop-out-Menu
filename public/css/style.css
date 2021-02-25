@@ -13,12 +13,6 @@ body {
   top: 0;
   bottom: 0;
 }
-.clme img {
-  position: absolute;
-  top: 100px;
-  left: 45%;
-  
-}
 .init-p {
   position: absolute;
   margin: auto;
@@ -87,10 +81,11 @@ body {
     height: 60px;
     font-size: 30px;
   }
-  .clme img{
+  #parent{
     width: 100px;
     height: 100px;
-    top: 150px;
-    left: 25%;
+  }
+  #parent span{
+    font-size: 10px;
   }
 }
