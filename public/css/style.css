@@ -13,6 +13,12 @@ body {
   top: 0;
   bottom: 0;
 }
+.clme img {
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  
+}
 .init-p {
   position: absolute;
   margin: auto;
@@ -68,16 +74,23 @@ body {
 #linkedin {
   z-index: -2;
 }
-.attr,.fa-github{
-    color: khaki;
-    font-size: 20px;
-
+.attr,
+.fa-github {
+  display: inline-block;
+  color: khaki;
+  font-size: 20px;
+  user-select: none;
 }
-
 @media screen and (max-width: 600px) {
   .ele {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+  .clme img{
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 25%;
   }
 }
