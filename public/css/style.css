@@ -68,12 +68,21 @@ body {
 #linkedin {
   z-index: -2;
 }
-.attr,
-.fa-github {
-  display: inline-block;
-  color: khaki;
+.attr{
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 20px;
+  color: khaki;
+  user-select: none;
 }
+.fa-github{
+  color: khaki;
+}
+.attr a{
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   .ele {
     width: 60px;
@@ -83,8 +92,5 @@ body {
   #parent{
     width: 100px;
     height: 100px;
-  }
-  #parent span{
-    font-size: 10px;
   }
 }
