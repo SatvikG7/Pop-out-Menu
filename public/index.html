@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pop-out Menu</title>
-    <!--! Links -->
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="scripts/script.js"></script>
-    <script src="scripts/fontawesome.js"></script>
-  </head>
 
-  <body>
-    <div class="container">
-      <div id="parent" class="init-p ele" onclick="pop()">
-        <i class="fas fa-share-alt"></i
-        ><span style="font-size: 15px">ClickMe</span>
-      </div>
-      <div class="items">
-        <div id="google" class="init-p ele">
-          <i class="fab fa-google"></i>
-        </div>
-        <div id="facebook" class="init-p ele">
-          <i class="fab fa-facebook"></i>
-        </div>
-        <div id="instagram" class="init-p ele">
-          <i class="fab fa-instagram"></i>
-        </div>
-        <div id="twitter" class="init-p ele">
-          <i class="fab fa-twitter"></i>
-        </div>
-        <div id="whatsapp" class="init-p ele">
-          <i class="fab fa-whatsapp"></i>
-        </div>
-        <div id="telegram" class="init-p ele">
-          <i class="fab fa-telegram"></i>
-        </div>
-        <div id="youtube" class="init-p ele">
-          <i class="fab fa-youtube"></i>
-        </div>
-        <div id="linkedin" class="init-p ele">
-          <i class="fab fa-linkedin"></i>
-        </div>
-      </div>
-    </div>
-    <div id="attrc" class="attr" onmouseover="setc()" onclick="setc()">
-      <p>Made by Satvik Gaikwad</p>
-      <p>
-        My Github Profile
-        <a href="https://github.com/SatvikG7" target="github"
-          ><i class="fab fa-github"></i
-        ></a>
-      </p>
-      <p>
-        Reference taken from
-        <a
-          href="https://www.youtube.com/watch?v=Q51PzAx3D3E&ab_channel=CodingArtist"
-          target="youtube"
-          onmouseover="setRandomColor()"
-          >Here
-        </a>
-        
-      </p>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pop-out Menu</title>
+  <!--! Links -->
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="scripts/script.js"></script>
+  <script src="scripts/fontawesome.js"></script>
+</head>
 
+<body>
+  <div id="container">
+    <div id="parent" class="init-p ele" onclick="pop()">
+      <i class="fas fa-share-alt"></i><span style="font-size: 15px">ClickMe</span>
     </div>
-  </body>
+    <div class="items">
+      <div id="google" class="init-p ele">
+        <i class="fab fa-google"></i>
+      </div>
+      <div id="facebook" class="init-p ele">
+        <i class="fab fa-facebook"></i>
+      </div>
+      <div id="instagram" class="init-p ele">
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div id="twitter" class="init-p ele">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div id="whatsapp" class="init-p ele">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <div id="telegram" class="init-p ele">
+        <i class="fab fa-telegram"></i>
+      </div>
+      <div id="youtube" class="init-p ele">
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div id="linkedin" class="init-p ele">
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+  <div id="attrc" class="attr" onmouseover="setc()" onclick="setc()">
+    <p>Made by Satvik Gaikwad</p>
+    <p>
+      My Github Profile
+      <a href="https://github.com/SatvikG7" target="github"><i class="fab fa-github"></i></a>
+    </p>
+    <p>
+      Reference taken from
+      <a href="https://www.youtube.com/watch?v=Q51PzAx3D3E&ab_channel=CodingArtist" target="youtube"
+        onmouseover="setRandomColor()">Here
+      </a>
+    </p>
+  </div>
+  <script>
+    // Background Gradient
+      var RandNum = Math.floor(Math.random() * 6);
+      var element = document.getElementById("container");
+      if (RandNum == 0) {
+        element.classList.add("gd0");
+      } else if (RandNum == 1) {
+        element.classList.add("gd1");
+      } else if (RandNum == 2) {
+        element.classList.add("gd2");
+      } else if (RandNum == 3) {
+        element.classList.add("gd3");
+      } else if (RandNum == 4) {
+        element.classList.add("gd4");
+      } else if (RandNum == 5) {
+        element.classList.add("gd5");
+      }
+  </script>
+</body>
 </html>

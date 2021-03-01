@@ -5,13 +5,14 @@
 body {
   background-color: rgb(20, 4, 77);
 }
-.container {
+#container {
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+  
 }
 .init-p {
   position: absolute;
@@ -42,31 +43,31 @@ body {
   transition: transform 1.5s;
 }
 #parent {
-  z-index: 6;
+  z-index: 9;
 }
 #google {
-  z-index: 5;
+  z-index: 8;
 }
 #facebook {
-  z-index: 4;
+  z-index: 7;
 }
 #instagram {
-  z-index: 3;
+  z-index: 6;
 }
 #twitter {
-  z-index: 2;
+  z-index: 5;
 }
 #whatsapp {
-  z-index: 1;
+  z-index: 4;
 }
 #telegram {
-  z-index: 0;
+  z-index: 3;
 }
 #youtube {
-  z-index: -1;
+  z-index: 2;
 }
 #linkedin {
-  z-index: -2;
+  z-index: 1;
 }
 .attr{
   position: absolute;
@@ -93,4 +94,23 @@ body {
     width: 100px;
     height: 100px;
   }
+}
+.gd0{
+  background-color: rgb(20, 4, 77);
+
+}
+.gd1{
+  background: linear-gradient(180deg, #124ba1, #082b6b, #031646);
+}
+.gd2{
+  background: linear-gradient(180deg, #53ca93, #107568,#06474b );
+}
+.gd3{
+  background: linear-gradient(180deg, #92731e, #68440f, #241302 );
+}
+.gd4{
+  background: linear-gradient(180deg, #ca598c, #a31b4b, #5f0b20);
+}
+.gd5{
+  background: linear-gradient(180deg, #af57c7, #8026a7, #2b0449);
 }
