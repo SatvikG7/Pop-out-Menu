@@ -4,7 +4,4 @@ _____________________<br>
 │<a href="https://pop-out-menu.vercel.app"> ▲Vercel  |  Success </a>│<br>
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 <br>
-
-_______________________________
 │<a href="https://pop-out-menu-satvikg7.web.app/"> Firebase  | Deploy Success </a>│<br>
-‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>
